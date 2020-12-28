@@ -40,10 +40,10 @@ This project is an end to end data science project that is able to predict the c
 # **Dataset Used**
 [**Breast Cancer **](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): Winconsin Breast Cancer Dataset
 
-[**Diabetes **](https://www.kaggle.com/uciml/pima-indians-diabetes-database) Pima Indian Diabetes Dataset
+[**Diabetes**](https://www.kaggle.com/uciml/pima-indians-diabetes-database) Pima Indian Diabetes Dataset
 
-[**Liver **](https://www.kaggle.com/uciml/indian-liver-patient-records) : Indian Patient Liver Records
+[**Liver**](https://www.kaggle.com/uciml/indian-liver-patient-records) : Indian Patient Liver Records
 
-[**Heart **](https://www.kaggle.com/ronitf/heart-disease-uci) : Heart Disease Dataset
+[**Heart**](https://www.kaggle.com/ronitf/heart-disease-uci) : Heart Disease Dataset
 
-[**Kidney **](https://www.kaggle.com/mansoordaku/ckdisease) : Chronic Kidney Disease Dataset
+[**Kidney**](https://www.kaggle.com/mansoordaku/ckdisease) : Chronic Kidney Disease Dataset
