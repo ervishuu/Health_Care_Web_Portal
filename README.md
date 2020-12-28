@@ -1,5 +1,6 @@
 # Health_Care_Web_Portal
 Note: *This Project is only for educational purposes*
+
 This project is an end to end data science project that is able to predict the chances of getting a disease in organs like liver, kidey, heart, etc.
 
 
@@ -37,8 +38,8 @@ This project is an end to end data science project that is able to predict the c
 ![Screenshot (38)](https://user-images.githubusercontent.com/63738852/103192161-ac535400-48fd-11eb-8dc7-5dbad67f1409.png)
 
 # **Dataset Used**
-Breast Cancer: Winconsin Breast Cancer Dataset
-Diabetes: Pima Indian Diabetes Dataset
-Liver: Indian Patient Liver Records
-Heart: Heart Disease Dataset
-Kidney: Chronic Kidney Disease Dataset
+**Breast Cancer:** Winconsin Breast Cancer Dataset
+**Diabetes:** Pima Indian Diabetes Dataset
+**Liver:** Indian Patient Liver Records
+**Heart:** Heart Disease Dataset
+**Kidney:** Chronic Kidney Disease Dataset
