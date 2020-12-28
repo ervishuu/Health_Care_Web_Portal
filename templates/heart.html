@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heart Disease Prediction </title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{url_for('static',filename='material-design-iconic-font.min.css')}}">
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='heart.css')}}">
+
+
+</head>
+<body>
+
+</div>>
+    <div class="main">
+        <div class="container">
+            <h2 style="font-family:Cursive ; color:#990000; margin-left : 20px" ><a href="/">Home</a></h2>
+            <div class="signup-content">
+                <div class="signup-img">
+
+                    <img src="static/heart.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form action="/heart" method="POST" class="register-form" id="register-form">
+                        {% if data : %}
+                        <h2 style="color:{{data[1]}}">
+                        {{data[0]}}
+                        </h2>
+                        {% endif %}
+
+                        <h2 style="font-family:Cursive ; color:#990000">Heart Disease Prediction : </h2>
+                        <div class="form-row">
+
+
+                            <div class="form-group" >
+                                <label style="font-family:Cursive" for="age">Age :</label>
+                                <input type="number" min="1" max="150" name="age" id="age" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="Cholesterol" style="font-family:Cursive">Cholesterol :</label>
+                                <input type="number" min="0" max="900" name="Cholesterol" id="Cholesterol" required/>
+                            </div>
+                        </div>
+
+
+                            <div class="form-group">
+                                <label for="Thalach" style="font-family:Cursive">Thalach :</label>
+                                <input type="number" min="10" max="700" name="Thalach" id="Thalach" required/>
+                            </div>
+
+
+                        <div class="form-group">
+                            <label for="Oldpeak" style="font-family:Cursive">Oldpeak :</label>
+                            <input type="number"  step="any" min="0.0" max="15.0" name="Oldpeak" id="Oldpeak" required/>
+                        </div>
+                    
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="exang" style="font-family:Cursive">exang (Exercise include angina) :</label>
+                                <div class="form-select">
+                                    <select name="exang" id="exang" style="font-family:Cursive">
+                                        <option value=1>Yes</option>
+                                        <option value=0>No</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="ca" style="font-family:Cursive">Coronary Artery (ca) :</label>
+                                <div class="form-select">
+                                    <select name="ca" id="ca" style="font-family:Cursive">
+                                        <option value='0'>0</option>
+                                        <option value='1'>1</option>
+                                        <option value='2'>2</option>
+                                        <option value='3'>3</option>
+                                        <option value='4'>4</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="form-group">
+                                <label for="cp" style="font-family:Cursive"> Constrictive Pericarditis (cp):</label>
+                                <div class="form-select">
+                                    <select name="cp" id="cp" style="font-family:Cursive">
+                                        <option value='1'>0</option>
+                                        <option value='0'>1</option>
+                                        <option value='0'>2</option>
+                                        <option value='0'>3</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="thal" style="font-family:Cursive"> Thalassemia (thal):</label>
+                                <div class="form-select">
+                                    <select name="thal" id="thal" style="font-family:Cursive">
+                                        <option value='0'>0</option>
+                                        <option value='0'>1</option>
+                                        <option value='1'>2</option>
+                                        <option value='0'>3</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+
+                    
+                        <div class="form-submit" >
+                            <input style="font-family:Cursive" type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input style="font-family:Cursive" type="submit" value="Predict" class="submit" name="submit" id="submit" />
+                        </div>
+                              <br>
+                            <footer>
+                                <span style="font-family:Cursive">Created By | <span style="color : crimson">@er_vishuu_vi__jaya </span>|  2020 All rights reserved.</span>
+                            </footer>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="static/heart.js"></script>
+
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

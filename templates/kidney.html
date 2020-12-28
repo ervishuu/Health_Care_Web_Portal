@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kidney Disease Prediction </title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{url_for('static',filename='material-design-iconic-font.min.css')}}">
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='kidney.css')}}">
+
+
+</head>
+<body>
+
+</div>
+    <div class="main">
+        <div class="container">
+            <h2 style="font-family:Cursive ; color:#990000; margin-left : 20px" ><a href="/">Home</a></h2>
+            <div class="signup-content">
+                <div class="signup-img">
+
+                    <img src="static/kidney.png" alt="">
+                </div>
+                <div class="signup-form">
+                    <form action="/kidney" method="POST" class="register-form" id="register-form">
+                        {% if data : %}
+                        <h2 style="color:{{data[1]}}">
+                        {{data[0]}}
+                        </h2>
+                        {% endif %}
+
+                        <h2 style="font-family:Cursive ; color:#990000">Kidney Disease Prediction : </h2>
+
+
+
+                            <div class="form-group" >
+                                <label style="font-family:Cursive" for="sg">Specific Gravity (sg) :</label>
+                                <input type="number" step="any"  min="1.0000000" max="1.0900000" name="sg" id="sg" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="al" style="font-family:Cursive">Amyloidosis (al) :</label>
+                                <input type="number" step="any" min="0.0000000" max="6.0000000" name="al" id="al" required/>
+                            </div>
+
+
+
+                        <div class="form-group">
+                            <label for="sc" style="font-family:Cursive">Sickle (sc) :</label>
+                            <input type="number"  step="any" min="0.0000000" max="6.0000000" name="sc" id="sc" required/>
+                        </div>
+
+
+                            <div class="form-group">
+                                <label for="hemo" style="font-family:Cursive">Hemoglobin (hemo) g/dl :</label>
+                                <input type="number" step="any" min="5.0000000" max="20.0000000" name="hemo" id="hemo" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="pcv" style="font-family:Cursive">Packed Cell Volume (pcv) :</label>
+                                <input type="number" step="any" min="0.0000000" max="100.0000000" name="pcv" id="pcv" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="htn" style="font-family:Cursive">Renal Hypertension (htn):</label>
+                                <div class="form-select">
+                                    <select name="htn" id="htn" style="font-family:Cursive">
+                                        <option value=1>Yes</option>
+                                        <option value=0>No</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+
+
+
+                        <div class="form-submit" >
+                            <input style="font-family:Cursive" type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input style="font-family:Cursive" type="submit" value="Predict" class="submit" name="submit" id="submit" />
+                        </div>
+
+
+                                                      <br>
+                            <footer>
+                                <span style="font-family:Cursive">Created By | <span style="color : crimson">@er_vishuu_vi__jaya </span>|  2020 All rights reserved.</span>
+                            </footer>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="static/kidney.js"></script>
+
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

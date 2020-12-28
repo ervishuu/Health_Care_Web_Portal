@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diabetes Disease Prediction </title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{url_for('static',filename='material-design-iconic-font.min.css')}}">
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='diabetes.css')}}">
+
+
+</head>
+<body>
+
+</div>>
+    <div class="main">
+        <div class="container">
+            <h2 style="font-family:Cursive ; color:#990000; margin-left : 20px" ><a href="/">Home</a></h2>
+            <div class="signup-content">
+                <div class="signup-img">
+
+                    <img src="static/diabetes.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form action="/diabetes" method="POST" class="register-form" id="register-form">
+                        {% if data : %}
+                        <h2 style="color:{{data[1]}}">
+                        {{data[0]}}
+                        </h2>
+                        {% endif %}
+
+                        <h2 style="font-family:Cursive ; color:#990000">Diabetes Disease Prediction : </h2>
+
+
+
+                            <div class="form-group" >
+                                <label style="font-family:Cursive" for="Glucose">Glucose :</label>
+                                <input type="number" step="any" min="50" max="200" name="Glucose" id="Glucose" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="blood" style="font-family:Cursive">Blood Pressure : (mmHg)</label>
+                                <input type="number" step="any" min="50" max="130" name="blood" id="blood" required/>
+                            </div>
+
+
+
+                        <div class="form-group">
+                            <label for="Skin" style="font-family:Cursive">Skin Thickness  :</label>
+                            <input type="number"  step="any" min="1" max="60" name="Skin" id="Skin" required/>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="Insulin" style="font-family:Cursive">Insulin :(ml U/l)</label>
+                            <input type="number"  step="any" min="5" max="200" name="Insulin" id="Insulin" required/>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="BMI" style="font-family:Cursive">BMI :(kg/m2)</label>
+                            <input type="number"  step="any" min="1" max="50" name="BMI" id="BMI" required/>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="function" style="font-family:Cursive">Diabetes Pedigree function :</label>
+                            <input type="number"  step="any" min="0.000000" max="1.500000" name="function" id="function" required/>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="Age" style="font-family:Cursive">Age : </label>
+                            <input type="number"  step="any" min="1" max="150" name="Age" id="Age" required/>
+                        </div>
+
+
+
+                        <div class="form-submit" >
+                            <input style="font-family:Cursive" type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input style="font-family:Cursive" type="submit" value="Predict" class="submit" name="submit" id="submit" />
+                        </div>
+
+                                                      <br>
+                            <footer>
+                                <span style="font-family:Cursive">Created By | <span style="color : crimson">@er_vishuu_vi__jaya </span>|  2020 All rights reserved.</span>
+                            </footer>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="static/diabetes.js"></script>
+
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
