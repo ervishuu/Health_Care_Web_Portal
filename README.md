@@ -4,4 +4,5 @@ This project is an end to end data science project that is able to predict the c
 
 ![Alt text](C:/Users/shree/Pictures/Screenshots/Screenshot (33).png? raw=true "Home Page")
 ![ScreenShot](C:/Users/shree/Pictures/Screenshots/Screenshot (33).png)
+![Image](C:/Users/shree/Pictures/Screenshots/Screenshot (33).png)
 
