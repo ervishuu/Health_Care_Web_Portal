@@ -47,3 +47,30 @@ This project is an end to end data science project that is able to predict the c
 [**Heart**](https://www.kaggle.com/ronitf/heart-disease-uci) : Heart Disease Dataset
 
 [**Kidney**](https://www.kaggle.com/mansoordaku/ckdisease) : Chronic Kidney Disease Dataset
+
+
+# Libraries Used:
+1.Sci-kit Learn
+
+2.Flask
+
+3.Joblib
+
+4.Pandas
+
+5.Numpy
+
+6.Bootstrap
+
+7.HTML & CSS
+
+This whole Project is Deployed using Flask
+
+
+# Steps used for Deployment:
+
+a. Created the ML model and saved it using joblib.
+
+b. Created app.py and the webpage page it will render to.
+
+
