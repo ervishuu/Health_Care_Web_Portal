@@ -39,7 +39,12 @@ This project is an end to end data science project that is able to predict the c
 
 # **Dataset Used**
 **Breast Cancer:** Winconsin Breast Cancer Dataset
+
 **Diabetes:** Pima Indian Diabetes Dataset
+
 **Liver:** Indian Patient Liver Records
+
 **Heart:** Heart Disease Dataset
+
 **Kidney:** Chronic Kidney Disease Dataset
+
