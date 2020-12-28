@@ -3,6 +3,8 @@ Note: This Project is only for educational purposes
 This project is an end to end data science project that is able to predict the chances of getting a disease in organs like liver, kidey, heart, etc.
 
 
+1) Home Page
+![Screenshot (33)](https://user-images.githubusercontent.com/63738852/103192211-e15fa680-48fd-11eb-8162-4dee2110ad9d.png)
 
 ![Screenshot (34)](https://user-images.githubusercontent.com/63738852/103192150-a493af80-48fd-11eb-8b39-07e0b47187a2.png)
 
