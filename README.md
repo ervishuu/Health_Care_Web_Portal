@@ -4,7 +4,7 @@
 This project is an end to end data science project that is able to predict the chances of getting a disease in organs like liver, kidey, heart, etc.
 >* This Web-App provides a wide range of predicting the contamination multiple infectious diseases like Kidney disease, Diabetes, Liver Infection, Heart Disease & Breast Cancer.
 
->* We have used light ML model that can load within no time without compromising on the accuracy of the prediction. Light models quickly load which helps in better response of  >the page.
+>* We have used light ML model that can load within no time without compromising on the accuracy of the prediction. Light models quickly load which helps in better response of  the page.
 
 >* Though this app provides a wide range and high speed the accuracy has not been compromised. Hyper-parameters have been selected very carefully so that the accuracy is not hampered.
 
@@ -78,4 +78,5 @@ a. Created the ML model and saved it using joblib.
 
 b. Created app.py and the webpage page it will render to.
 
-
+# Project Created by:
+[**Vishvanath Metkari**](https://www.linkedin.com/in/er-vishvanath-metkari-586617197/) 
