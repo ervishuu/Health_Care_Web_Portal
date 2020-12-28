@@ -38,7 +38,7 @@ This project is an end to end data science project that is able to predict the c
 ![Screenshot (38)](https://user-images.githubusercontent.com/63738852/103192161-ac535400-48fd-11eb-8dc7-5dbad67f1409.png)
 
 # **Dataset Used**
-[**Breast Cancer **](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): Winconsin Breast Cancer Dataset
+[**Breast Cancer**](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data): Winconsin Breast Cancer Dataset
 
 [**Diabetes**](https://www.kaggle.com/uciml/pima-indians-diabetes-database) Pima Indian Diabetes Dataset
 
