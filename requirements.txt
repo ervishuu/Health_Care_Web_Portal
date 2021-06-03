@@ -1,9 +1,0 @@
-Flask==1.1.2
-Jinja2==2.11.2
-joblib==0.17.0
-numpy==1.19.4
-
-pickle==4.0
-tensorflow==2.4.1
-keras==2.4.3
-opencv==4.5.1
