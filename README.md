@@ -79,4 +79,4 @@ a. Created the ML model and saved it using joblib.
 b. Created app.py and the webpage page it will render to.
 
 # Project Created by:
-[**Vishvanath Metkari**](https://www.linkedin.com/in/er-vishvanath-metkari-586617197/) 
+[**Vishvanath Metkari**](https://www.linkedin.com/in/vishvanath-metkari-586617197/) 
