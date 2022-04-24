@@ -1,8 +1,8 @@
-# Health_Care_Web_Portal
+# Health_Care_Web_Portal ⚕️
 >Note: *This Project is only for educational purposes*
 
 This project is an end to end data science project that is able to predict the chances of getting a disease in organs like liver, kidey, heart, etc.
->* This Web-App provides a wide range of predicting the contamination multiple infectious diseases like Kidney disease, Diabetes, Liver Infection, Heart Disease & Breast Cancer.
+>* This Web-App provides a wide range of predicting the contamination multiple infectious diseases like Kidney disease, Diabetes, Liver Infection, Heart Disease & Breast Cancer.⚕️
 
 >* We have used light ML model that can load within no time without compromising on the accuracy of the prediction. Light models quickly load which helps in better response of  the page.
 
@@ -78,5 +78,9 @@ a. Created the ML model and saved it using joblib.
 
 b. Created app.py and the webpage page it will render to.
 
-# Project Created by:
-[**Vishvanath Metkari**](https://www.linkedin.com/in/vishvanath-metkari-586617197/) 
+# Hi, I'm Vishvanath ! 👋
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishvanath-metkari-586617197/)
+
